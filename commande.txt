@@ -1,0 +1,8 @@
+rm -Recurse -Force venv
+
+python -m venv venv
+
+.\venv\Scripts\activate
+
+uvicorn main:app --reload
+

@@ -1,0 +1,41 @@
+id,categorie,question,reponse,mots_cles_ok,mots_manquants,mots_interdits_presents,score_precision,score_non_vague,score_format,score_moyen,commentaire_juge
+statut_simple,statistiques,Combien de fiches ont le statut Approved ?,"Il y a 361 fiches GFST et 22 fiches PORO avec le statut ""Approved"".",True,,,5,5,5,5.0,La réponse fournit des chiffres exacts et est bien structurée.
+recherche_reference,recherche,Donne-moi les infos sur le protecteur thermique coffre batterie traction,"Voici les informations trouvées concernant le protecteur thermique pour le coffre de la batterie de traction :
+
+1. **Réf: 01266_25_00202**
+   - Description: Protecteur thermique D/G coffre batterie traction
+   - Zone: Battery under body
+   - Statut: Approved
+
+Si tu as besoin de plus de détails ou d'autres informations, n'hésite pas à demander.",True,,,4,5,5,4.67,"La réponse est précise et bien structurée, mais nécessite une vérification de la référence."
+aucun_resultat,recherche,Cherche la fiche XYZ99999INEXISTANTE,"Je n'ai trouvé aucune fiche correspondant à la référence ""XYZ99999INEXISTANTE"".",True,,,5,5,5,5.0,"La réponse est précise, non vague et bien structurée."
+question_generale,conversation,"Bonjour, tu peux m'aider avec quoi ?","Bonjour ! Je suis l'Assistant GFST, spécialisé dans les fixations automobiles pour Stellantis. Je peux vous aider avec :
+
+1. **Recherches de fiches** : Si vous avez un mot-clé ou une référence spécifique, je peux trouver les fiches correspondantes.
+2. **Comptage de fiches** : Je peux vous indiquer combien de fiches existent pour un statut donné.
+3. **Requêtes complexes** : Si vous avez besoin de croiser plusieurs critères ou de trier des informations, je peux exécuter des requêtes SQL pour vous.
+4. **Informations générales** : Je peux répondre à des questions sur les concepts et définitions liés aux fixations automobiles.
+
+N'hésitez pas à me poser une question spécifique ou à me dire comment je peux vous aider !",True,,,4,5,5,4.67,"Réponse claire et bien structurée, mais manque de détails chiffrés."
+requete_complexe,sql,Quelles sont les fiches de la zone Engine avec le statut Cancelled ?,"Voici les fiches de la zone ""Engine"" avec le statut ""Cancelled"" :
+
+1. Réf. 01266_24_00609, zone : Engine and Gearbox Adaptation
+2. Réf. 01266_14_01085, zone : Engine and Gearbox Adaptation
+3. Réf. DITV_ATAT07_0116, zone : Engine and Gearbox
+4. Réf. DITV_ATAT07_0172, zone : Engine and Gearbox
+5. Réf. DITV_ATAT07_0190, zone : Engine and Gearbox Adaptation
+6. Réf. DITV_ATAT07_0215, zone : Engine and Gearbox Adaptation
+7. Réf. DITV_ATAT07_0239, zone : Engine and Gearbox Adaptation
+8. Réf. DITV_ATAT07_0248, zone : Engine and Gearbox
+9. Réf. DITV_ATAT07_0261, zone : Engine and Gearbox Adaptation
+10. Réf. DITV_ATAT07_0263, zone : Engine and Gearbox Adaptation",True,,,4,5,5,4.67,"La réponse est précise et bien structurée, mais certaines zones ne sont pas exactement 'Engine'."
+recherche_anglais,recherche,Give me the info about the thermal protector for the battery trunk,"Here is the information about the thermal protector for the battery trunk:
+
+1. **Réf: 01266_25_00202**
+   - **Description:** Protecteur thermique D/G coffre batterie traction
+   - **Zone:** Battery under body
+   - **Statut:** Approved
+
+If you need more details or have any other questions, feel free to ask!",True,,,5,5,5,5.0,"La réponse est précise, non vague et bien structurée."
+definition_psa_dec,glossaire_metier,C'est quoi un PSA DEC ?,"Un PSA DEC est un document d'engagement de conformité utilisé dans l'industrie automobile, notamment chez Stellantis (anciennement PSA Peugeot Citroën). Ce document est destiné à garantir que les pièces ou composants fournis respectent les spécifications techniques et les normes de qualité définies par le constructeur. Le PSA DEC formalise l'engagement du fournisseur à livrer des produits conformes aux exigences contractuelles et réglementaires.",True,,,2,2,4,2.67,La réponse est incorrecte et manque de précision par rapport au contexte attendu.
+definition_lot,glossaire_metier,C'est quoi un LOT ?,"En général, un ""LOT"" dans le contexte industriel et notamment dans l'industrie automobile, fait référence à un ensemble ou une quantité spécifique de produits ou de composants fabriqués ou assemblés ensemble. Un lot est souvent utilisé pour identifier un groupe de produits qui ont été produits dans les mêmes conditions, à la même période, et qui partagent les mêmes caractéristiques de production. Cela permet de faciliter la traçabilité, le contrôle qualité, et la gestion des stocks. En cas de problème ou de rappel, cela permet de cibler précisément les produits concernés.",True,,,4,3,5,4.0,Réponse bien structurée mais manque de précision sur certains termes.

@@ -1,0 +1,24 @@
+id,categorie,question,reponse,mots_cles_ok,mots_manquants,mots_interdits_presents,score_precision,score_non_vague,score_format,score_moyen,commentaire_juge
+statut_simple,statistiques,Combien de fiches ont le statut Approved ?,"Il y a exactement 361 fiches GFST avec le statut ""Approved"".",True,,,5,5,5,5.0,"La réponse est précise, non vague et bien structurée."
+recherche_reference,recherche,Donne-moi les infos sur la vis M8 zone moteur,"Voici les informations concernant les fiches liées à la vis M8 dans la zone moteur :
+
+**Fiches GFST Classiques :**
+1. Réf: DITV_ATAT07_0071 | Description: Boîtier Électrique Commande GMV | Zone: Engine and Gearbox | Statut: Applicable
+2. Réf: 01266_19_00538 | Description: Groupe Moto-Ventilateur | Zone: Engine and Gearbox Adaptation | Statut: Approved
+3. Réf: 01266_10_00736 | Description: Support Moteur Intermédiaire Droit (SMID) | Zone: Engine and Gearbox Adaptation | Statut: Approved
+4. Réf: DITV_ATAT07_0166 | Description: Support Gauche Moteur Électrique | Zone: Engine and Gearbox Adaptation | Statut: Approved
+5. Réf: DITV_ATAT07_0092 | Description: Support Moteur Inférieur (SMIF) | Zone: Engine and Gearbox Adaptation | Statut: Approved
+
+Si tu as besoin de plus d'informations ou d'une autre recherche, n'hésite pas à me le faire savoir.",True,,,3,3,4,3.33,La réponse manque de détails spécifiques sur la vis M8 elle-même.
+aucun_resultat,recherche,Cherche la fiche XYZ99999INEXISTANTE,"Je n'ai trouvé aucune fiche correspondant à ""XYZ99999INEXISTANTE"".",True,,,5,5,5,5.0,"La réponse est précise, non vague et bien structurée."
+question_generale,conversation,"Bonjour, tu peux m'aider avec quoi ?","Bonjour ! Je suis l'Assistant GFST, et je suis ici pour vous aider avec tout ce qui concerne les fixations automobiles sur la plateforme GFST de Stellantis. Voici quelques exemples de ce que je peux faire pour vous :
+
+1. **Rechercher des fiches** : Je peux trouver des fiches spécifiques en fonction de vos critères de recherche.
+2. **Statut des fiches** : Je peux vérifier le statut d'approbation des fiches GFST Classiques.
+3. **Statistiques** : Je peux vous donner des statistiques sur le nombre de fiches ou leur répartition par statut.
+4. **Guides et présentations** : Je peux vous fournir des informations sur les guides et présentations internes disponibles.
+
+Si vous avez une question précise ou un besoin particulier, n'hésitez pas à me le faire savoir !",True,,,4,5,5,4.67,"Réponse précise et bien structurée, mais manque de chiffres concrets."
+requete_complexe,sql,Quelles sont les fiches de la zone Engine avec le statut Cancelled ?,"Je ne peux pas accéder directement à la base de données pour le moment. Je vais utiliser l'outil de recherche pour trouver les fiches de la zone ""Engine"" avec le statut ""Cancelled"".",True,,,1,1,3,1.67,La réponse est vague et manque de données concrètes.
+definition_psa_dec,glossaire_metier,C'est quoi un PSA DEC ?,"Un PSA DEC est un document technique utilisé dans l'industrie automobile, notamment par le groupe PSA (Peugeot Société Anonyme, maintenant partie de Stellantis). DEC signifie ""Dossier d'Évolution de la Conception"". Ce document est utilisé pour décrire, justifier et suivre les modifications apportées à la conception d'un produit ou d'un composant. Il contient des informations détaillées sur les changements proposés, les raisons de ces changements, leur impact potentiel sur le produit final, et les validations nécessaires avant leur mise en œuvre. Cela permet de garantir que toutes les modifications sont correctement documentées et approuvées avant d'être intégrées dans le processus de production.",True,,,1,2,4,2.33,La réponse est incorrecte et manque de précision contextuelle.
+definition_lot,glossaire_metier,C'est quoi un LOT ?,"En termes de fixations automobiles, un ""LOT"" fait généralement référence à un ensemble ou une série de pièces ou de composants qui sont produits ou achetés ensemble et qui partagent des caractéristiques communes. Cela peut inclure des fixations comme des vis, des écrous, des boulons, etc. Chaque lot est souvent identifié par un numéro unique qui permet de tracer et de gérer les pièces tout au long de la chaîne d'approvisionnement et de production. Cela aide à assurer la qualité et la conformité des pièces, ainsi qu'à faciliter la gestion des stocks et la logistique.",False,traçabilité,,4,3,5,4.0,La réponse est précise mais utilise des termes vagues comme 'généralement'.

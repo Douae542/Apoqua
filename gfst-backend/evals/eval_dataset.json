@@ -1,0 +1,66 @@
+[
+  {
+    "id": "statut_simple",
+    "categorie": "statistiques",
+    "question": "Combien de fiches ont le statut Approved ?",
+    "doit_contenir": ["approved"],
+    "ne_doit_pas_contenir": ["plusieurs", "certaines fiches", "environ"],
+    "note": "La réponse doit donner un chiffre exact, pas une estimation vague."
+  },
+  {
+  "id": "recherche_reference",
+  "categorie": "recherche",
+  "question": "Donne-moi les infos sur le protecteur thermique coffre batterie traction",
+  "doit_contenir": ["01266_25_00202", "battery under body"],
+  "ne_doit_pas_contenir": [],
+  "note": "Vérifie que la référence exacte et la zone sont citées, basé sur une vraie fiche existante en base."
+  },
+  {
+    "id": "aucun_resultat",
+    "categorie": "recherche",
+    "question": "Cherche la fiche XYZ99999INEXISTANTE",
+    "doit_contenir": ["aucun", "trouvé"],
+    "ne_doit_pas_contenir": ["généralement", "habituellement"],
+    "note": "Le bot doit dire clairement qu'il n'a rien trouvé, pas inventer ou généraliser."
+  },
+  {
+    "id": "question_generale",
+    "categorie": "conversation",
+    "question": "Bonjour, tu peux m'aider avec quoi ?",
+    "doit_contenir": [],
+    "ne_doit_pas_contenir": [],
+    "note": "Doit répondre naturellement SANS appeler d'outil (vérifier dans les logs/tokens que tool_calls est vide)."
+  },
+  {
+    "id": "requete_complexe",
+    "categorie": "sql",
+    "question": "Quelles sont les fiches de la zone Engine avec le statut Cancelled ?",
+    "doit_contenir": ["engine", "cancelled"],
+    "ne_doit_pas_contenir": [],
+    "note": "Teste le multi-critères — vérifie que le bot ne mélange pas ou n'ignore pas un des deux filtres."
+  },
+  {
+  "id": "recherche_anglais",
+  "categorie": "recherche",
+  "question": "Give me the info about the thermal protector for the battery trunk",
+  "doit_contenir": ["01266_25_00202"],
+  "ne_doit_pas_contenir": [],
+  "note": "Teste la robustesse multilingue : même donnée que recherche_reference, posée en anglais."
+  },
+  {
+    "id": "definition_psa_dec",
+    "categorie": "glossaire_metier",
+    "question": "C'est quoi un PSA DEC ?",
+    "doit_contenir": [],
+    "ne_doit_pas_contenir": [],
+    "note": "Dans le référentiel GFST, PSA signifie Peugeot Société Anonyme - DEC  signifie Désignation d'État de Couche. C'est le code normatif (ex: U1C, Z1D) qui définit le traitement de surface appliqué sur une fixation."
+  },
+  {
+    "id": "definition_lot",
+    "categorie": "glossaire_metier",
+    "question": "C'est quoi un LOT ?",
+    "doit_contenir": ["lot", "traçabilité"],
+    "ne_doit_pas_contenir": [],
+    "note": "Un lot désigne un ensemble de pièces produites ensemble (même machine, même réglage, même période), identifié par un numéro de lot pour la traçabilité — en cas de défaut qualité, ça permet d'isoler uniquement les pièces concernées sans rappeler toute la production."
+  }
+]
